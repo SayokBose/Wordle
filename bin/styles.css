@@ -1,0 +1,65 @@
+.letter-label {
+    -fx-min-width: 70px;
+    -fx-min-height: 70px;
+    -fx-max-width: 70px;
+    -fx-max-height: 70px;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-font-weight: bold; /* Bold text */
+    -fx-font-family: "Helvetica"; /* Monospaced font */
+    -fx-font-size: 50px;
+}
+
+.keyboard-button {
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-max-width: 40px;
+    -fx-max-height: 40px;
+}
+
+.tooltip {
+    -fx-background-color: #ffebcc; /* Background color */
+    -fx-text-fill: #ff6600; /* Text color */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-font-size: 14px; /* Font size */
+}
+
+/* Minimal padding */
+.tooltip .label {
+    -fx-padding: 5px 10px; /* Top and bottom padding of 5px, left and right padding of 10px */
+}
+
+.popup-content {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+
+.popup-content > .label {
+    -fx-font-weight: bold;
+}
+
+.popup-content > .button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 14px;
+}
+
+.popup-content  > .button:hover {
+    -fx-background-color: #e6b800;
+}
+
+
